@@ -28,13 +28,16 @@ BASE_URL = "https://catalog.api.2gis.com/3.0/items"
 SEARCH_QUERY = "банкротство физических лиц"
 
 
-def fetch_organizations(city_name: str, page_size: int = 20) -> list[dict]:
+def fetch_organizations(city_name: str, page_size: int = 10) -> list[dict]:
     """
     Получает список организаций по поисковому запросу в указанном городе.
 
     Название города передаётся прямо в тексте запроса (q) — так проще всего
     для старта. Если 2ГИС даст менее релевантную выдачу, можно будет перейти
     на фильтрацию по region_id конкретного города (см. документацию).
+
+    page_size=10 — это максимум, который допускает API 2ГИС (проверено на
+    практике: значения больше 10 API отклоняет с ошибкой paramIsOutsideSet).
     """
     if not API_KEY:
         raise RuntimeError("Не найден GIS_2GIS_API_KEY — заполни .env")
@@ -53,6 +56,25 @@ def fetch_organizations(city_name: str, page_size: int = 20) -> list[dict]:
         response = requests.get(BASE_URL, params=params, timeout=15)
         response.raise_for_status()
         data = response.json()
+
+        # 2ГИС не всегда возвращает ошибку через HTTP-статус — код ошибки
+        # может прийти внутри тела ответа (meta.code) при статусе 200.
+        # Поэтому проверяем это отдельно, а не полагаемся только на raise_for_status.
+        meta = data.get("meta", {})
+        if meta.get("code") != 200:
+            error_message = meta.get("error", {}).get("message", "")
+            # У пробного ключа лимит на глубину пагинации (страница максимум 5) —
+            # это ограничение тарифа, а не ошибка. В этом случае просто
+            # останавливаемся на том, что успели собрать, вместо падения скрипта.
+            if "page" in error_message.lower():
+                print(
+                    f"  Достигнут лимит тарифа по глубине выдачи для "
+                    f"'{city_name}': {error_message}. Собрано {len(results)} организаций."
+                )
+                break
+            raise RuntimeError(
+                f"2ГИС API вернул ошибку для города '{city_name}': {error_message or meta}"
+            )
 
         items = data.get("result", {}).get("items", [])
         if not items:
@@ -78,8 +100,10 @@ def save_to_json(data: list[dict], city_name: str) -> None:
     print(f"Сохранено {len(data)} организаций в {output_path}")
 
 
+PILOT_CITIES = ["Челябинск", "Пермь", "Воронеж"]
+
+
 if __name__ == "__main__":
-    # Пилотный город для первого теста — поменяй на нужный из списка недели 1-2
-    pilot_city = "Казань"
-    orgs = fetch_organizations(pilot_city)
-    save_to_json(orgs, pilot_city)
+    for city in PILOT_CITIES:
+        orgs = fetch_organizations(city)
+        save_to_json(orgs, city)
