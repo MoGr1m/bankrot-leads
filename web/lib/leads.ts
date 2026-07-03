@@ -1,12 +1,10 @@
 "use server";
 
-import fs from "node:fs";
-import path from "node:path";
-
-// MVP-хранилище лидов: просто аппендим в JSON-файл в data/leads.json.
-// Когда дойдём до реальных продаж юрфирмам — заменить на нормальную
-// CRM/базу (см. README.md, недели 5-6 плана).
-const LEADS_FILE = path.join(process.cwd(), "..", "data", "leads.json");
+// MVP-хранилище лидов: отправляем уведомление в Telegram-бота вместо записи
+// в файл — на serverless-хостинге (Vercel) файловая система только для
+// чтения, локальный JSON-файл там работать не будет.
+// Когда дойдём до реальных продаж юрфирмам — заменить на нормальную CRM
+// (см. README.md, недели 5-6 плана).
 
 export type LeadFormState = {
   status: "idle" | "success" | "error";
@@ -17,6 +15,37 @@ function isValidRussianPhone(phone: string): boolean {
   // Достаточно грубая проверка: 10-11 цифр после удаления всего, кроме цифр
   const digits = phone.replace(/\D/g, "");
   return digits.length === 10 || digits.length === 11;
+}
+
+const DEBT_LABELS: Record<string, string> = {
+  "менее 250 000": "до 250 000 ₽",
+  "250000-500000": "250 000 – 500 000 ₽",
+  "500000-1500000": "500 000 – 1 500 000 ₽",
+  "более 1500000": "более 1 500 000 ₽",
+};
+
+async function sendTelegramNotification(text: string): Promise<void> {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+
+  if (!token || !chatId) {
+    throw new Error(
+      "Не настроены TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID в web/.env.local"
+    );
+  }
+
+  const response = await fetch(
+    `https://api.telegram.org/bot${token}/sendMessage`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: chatId, text }),
+    }
+  );
+
+  if (!response.ok) {
+    throw new Error(`Telegram API вернул ошибку: ${response.status}`);
+  }
 }
 
 export async function submitLead(
@@ -40,22 +69,23 @@ export async function submitLead(
     return { status: "error", message: "Проверьте номер телефона" };
   }
 
-  const lead = {
-    id: crypto.randomUUID(),
-    createdAt: new Date().toISOString(),
-    city,
-    phone,
-    debtAmount,
-    hasIncome,
-  };
+  const text = [
+    "Новая заявка с сайта",
+    `Город: ${city}`,
+    `Телефон: ${phone}`,
+    `Сумма долга: ${DEBT_LABELS[debtAmount] ?? debtAmount}`,
+    `Есть доход: ${hasIncome ? "да" : "нет"}`,
+  ].join("\n");
 
-  const existing: unknown[] = fs.existsSync(LEADS_FILE)
-    ? JSON.parse(fs.readFileSync(LEADS_FILE, "utf-8"))
-    : [];
-
-  existing.push(lead);
-  fs.mkdirSync(path.dirname(LEADS_FILE), { recursive: true });
-  fs.writeFileSync(LEADS_FILE, JSON.stringify(existing, null, 2), "utf-8");
+  try {
+    await sendTelegramNotification(text);
+  } catch (error) {
+    console.error("Не удалось отправить лид в Telegram:", error);
+    return {
+      status: "error",
+      message: "Не получилось отправить заявку, попробуйте ещё раз",
+    };
+  }
 
   return {
     status: "success",
