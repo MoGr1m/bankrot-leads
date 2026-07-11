@@ -1,0 +1,1542 @@
+[
+  {
+    "id": "70000001060619169",
+    "name": "Правильный выбор, союз арбитражных управляющих",
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 39,
+      "general_review_count_with_stars": 39,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 35,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 39,
+      "org_review_count_with_stars": 39,
+      "rating": 5,
+      "review_count": 35
+    },
+    "type": "branch"
+  },
+  {
+    "id": "70000001096092646",
+    "name": "Хватит, центр списания долгов",
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "id": "70000001111465611",
+    "name": "Прометей, консалтинговая компания",
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "id": "70000001082361784",
+    "name": "Арбитражный управляющий Исмаилов Р.С.",
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Плехановская улица, 46",
+    "id": "70000001059896236",
+    "name": "Бизнес-Юрист, юридическая компания по сопровождению процесса банкротства физических лиц",
+    "point": {
+      "lat": 51.670284,
+      "lon": 39.189976
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 154,
+      "general_review_count_with_stars": 163,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 14,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 293,
+      "org_review_count_with_stars": 306,
+      "rating": 5,
+      "review_count": 14
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Плехановская улица, 45",
+    "id": "70000001059572481",
+    "name": "Росбанкрот, центр банкротства физических лиц",
+    "point": {
+      "lat": 51.671873,
+      "lon": 39.187201
+    },
+    "reviews": {
+      "general_rating": 4.9,
+      "general_review_count": 37,
+      "general_review_count_with_stars": 41,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.9,
+      "org_review_count": 37,
+      "org_review_count_with_stars": 41
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица Куколкина, 33",
+    "id": "70000001035779136",
+    "name": "Заря, федеральная юридическая компания",
+    "point": {
+      "lat": 51.668035,
+      "lon": 39.18699
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 120,
+      "general_review_count_with_stars": 127,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 2,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 120,
+      "org_review_count_with_stars": 127,
+      "rating": 5,
+      "review_count": 2
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Кольцовская улица, 36",
+    "id": "70000001040227704",
+    "name": "ФЦБ",
+    "point": {
+      "lat": 51.672987,
+      "lon": 39.199577
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 68,
+      "general_review_count_with_stars": 70,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 31,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 100,
+      "org_review_count_with_stars": 104,
+      "rating": 5,
+      "review_count": 31
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "618 кабинет; 6 этаж",
+    "address_name": "Никитинская улица, 8а",
+    "id": "70000001018752941",
+    "name": "ЗаконЪ, юридический центр",
+    "point": {
+      "lat": 51.669499,
+      "lon": 39.201894
+    },
+    "reviews": {
+      "general_rating": 4.8,
+      "general_review_count": 97,
+      "general_review_count_with_stars": 99,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 4.6,
+          "recommendation_count": 3,
+          "review_count": 56,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.8,
+      "org_review_count": 97,
+      "org_review_count_with_stars": 99,
+      "rating": 4.6,
+      "recommendation_count": 3,
+      "review_count": 56
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Пушкинская улица, 45",
+    "id": "70000001032285288",
+    "name": "Единый Центр Защиты, компания по сопровождению процедуры банкротства физических лиц",
+    "point": {
+      "lat": 51.657354,
+      "lon": 39.188783
+    },
+    "reviews": {
+      "general_rating": 4.9,
+      "general_review_count": 165,
+      "general_review_count_with_stars": 170,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 4.9,
+          "review_count": 80,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.9,
+      "org_review_count": 165,
+      "org_review_count_with_stars": 170,
+      "rating": 4.9,
+      "review_count": 80
+    },
+    "type": "branch"
+  },
+  {
+    "address_name": "проспект Труда, 59",
+    "id": "70000001111133903",
+    "name": "Право и защита, юридическая консультация",
+    "point": {
+      "lat": 51.682517,
+      "lon": 39.189674
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 6,
+      "general_review_count_with_stars": 6,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 6,
+      "org_review_count_with_stars": 6
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "405, 408 офис; 4 этаж; правое крыло",
+    "address_name": "улица Урицкого, 75/2",
+    "id": "70000001030067137",
+    "name": "Банкирро36, юридическая компания",
+    "point": {
+      "lat": 51.680008,
+      "lon": 39.190094
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 203,
+      "general_review_count_with_stars": 205,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 40,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 203,
+      "org_review_count_with_stars": 205,
+      "rating": 5,
+      "review_count": 40
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Плехановская улица, 9",
+    "id": "70000001100988097",
+    "name": "Юрист для народа",
+    "point": {
+      "lat": 51.662073,
+      "lon": 39.197652
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 24,
+      "general_review_count_with_stars": 25,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 24,
+      "org_review_count_with_stars": 25
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица 45 Стрелковой Дивизии, 125",
+    "id": "70000001061804726",
+    "name": "Коллегия адвокатов Воронежской области",
+    "point": {
+      "lat": 51.695114,
+      "lon": 39.185078
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 96,
+      "general_review_count_with_stars": 98,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 3,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 96,
+      "org_review_count_with_stars": 98,
+      "rating": 5,
+      "review_count": 3
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "701 офис; 7 этаж",
+    "address_name": "проспект Революции, 1в",
+    "id": "70000001083717990",
+    "name": "ФЦБ",
+    "point": {
+      "lat": 51.681899,
+      "lon": 39.215984
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 32,
+      "general_review_count_with_stars": 34,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 100,
+      "org_review_count_with_stars": 104
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "01 офис; 19 этаж",
+    "address_name": "Кольцовская улица, 35а",
+    "id": "70000001043921373",
+    "name": "Современная Защита, юридическая компания",
+    "point": {
+      "lat": 51.667275,
+      "lon": 39.191701
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 33,
+      "general_review_count_with_stars": 33,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 25,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 33,
+      "org_review_count_with_stars": 33,
+      "rating": 5,
+      "review_count": 25
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "7/1 офис; 2 этаж",
+    "address_name": "улица Урицкого, 128",
+    "id": "70000001080769523",
+    "name": "БанкротствоГрупп",
+    "point": {
+      "lat": 51.67953,
+      "lon": 39.186127
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 19,
+      "general_review_count_with_stars": 20,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 5,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 19,
+      "org_review_count_with_stars": 20,
+      "rating": 5,
+      "review_count": 5
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "502 офис; 5 этаж",
+    "address_name": "проспект Труда, 48а",
+    "id": "70000001069115064",
+    "name": "Кабинет юриста",
+    "point": {
+      "lat": 51.679466,
+      "lon": 39.174776
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 14,
+      "general_review_count_with_stars": 15,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 14,
+      "org_review_count_with_stars": 15
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "302/1 офис; 1 помещение; 3 этаж",
+    "address_name": "улица Димитрова, 53а",
+    "id": "70000001081119684",
+    "name": "Юстина, юридическое агентство",
+    "point": {
+      "lat": 51.673127,
+      "lon": 39.252515
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 9,
+      "general_review_count_with_stars": 10,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 9,
+      "org_review_count_with_stars": 10
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица Фридриха Энгельса, 72",
+    "id": "70000001057014554",
+    "name": "Юрист для Людей",
+    "point": {
+      "lat": 51.66205,
+      "lon": 39.190727
+    },
+    "reviews": {
+      "general_rating": 4.9,
+      "general_review_count": 198,
+      "general_review_count_with_stars": 198,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 84,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.9,
+      "org_review_count": 198,
+      "org_review_count_with_stars": 198,
+      "rating": 5,
+      "review_count": 84
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "3311 офис; 3 этаж",
+    "address_name": "Кольцовская улица, 23а",
+    "id": "70000001047221928",
+    "name": "Линия защиты, юридическая фирма",
+    "point": {
+      "lat": 51.670144,
+      "lon": 39.195849
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 37,
+      "general_review_count_with_stars": 43,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 37,
+      "org_review_count_with_stars": 43
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Ленинский проспект, 114",
+    "id": "70000001099853996",
+    "name": "Бизнес-Юрист, юридическая компания по сопровождению процесса банкротства физических лиц",
+    "point": {
+      "lat": 51.669156,
+      "lon": 39.251238
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 85,
+      "general_review_count_with_stars": 87,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 293,
+      "org_review_count_with_stars": 306
+    },
+    "type": "branch"
+  },
+  {
+    "address_name": "улица 9 Января, 276",
+    "id": "70000001114677324",
+    "name": "Бизнес-Юрист, юридическая компания по сопровождению процесса банкротства физических лиц",
+    "point": {
+      "lat": 51.682918,
+      "lon": 39.123644
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 1,
+      "general_review_count_with_stars": 1,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 293,
+      "org_review_count_with_stars": 306
+    },
+    "type": "branch"
+  },
+  {
+    "address_name": "Плехановская улица, 45",
+    "id": "70000001103621174",
+    "name": "Финэкс, антикризисная компания",
+    "point": {
+      "lat": 51.671978,
+      "lon": 39.187072
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 9,
+      "general_review_count_with_stars": 9,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 9,
+      "org_review_count_with_stars": 9
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "3-4 этаж; 2 подъезд",
+    "address_name": "улица Кирова, 9",
+    "id": "4363390420004327",
+    "name": "Бородин и Партнеры, коллегия адвокатов",
+    "point": {
+      "lat": 51.657407,
+      "lon": 39.19174
+    },
+    "reviews": {
+      "general_review_count_with_stars": 2,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_review_count_with_stars": 2
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "807 офис; 8 этаж",
+    "address_name": "Московский проспект, 4",
+    "id": "70000001022615313",
+    "name": "Витакон, юридическая компания",
+    "point": {
+      "lat": 51.678707,
+      "lon": 39.185614
+    },
+    "reviews": {
+      "general_rating": 4.6,
+      "general_review_count": 17,
+      "general_review_count_with_stars": 23,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 3,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.6,
+      "org_review_count": 17,
+      "org_review_count_with_stars": 23,
+      "rating": 5,
+      "review_count": 3
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "201 офис; 2 этаж",
+    "address_name": "улица Генерала Лизюкова, 50",
+    "id": "70000001021114494",
+    "name": "Воронежский центр права",
+    "point": {
+      "lat": 51.706028,
+      "lon": 39.154054
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 28,
+      "general_review_count_with_stars": 29,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 2,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 28,
+      "org_review_count_with_stars": 29,
+      "rating": 5,
+      "review_count": 2
+    },
+    "type": "branch"
+  },
+  {
+    "address_name": "проспект Труда, 61",
+    "id": "70000001019221244",
+    "name": "Правовой город, юридическая компания",
+    "point": {
+      "lat": 51.681978,
+      "lon": 39.186907
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 8,
+      "general_review_count_with_stars": 11,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 8,
+      "org_review_count_with_stars": 11
+    },
+    "type": "branch"
+  },
+  {
+    "address_name": "улица Генерала Лизюкова, 85",
+    "id": "70000001115084873",
+    "name": "Бизнес-Юрист, юридическая компания по сопровождению процесса банкротства физических лиц",
+    "point": {
+      "lat": 51.704689,
+      "lon": 39.148718
+    },
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица 9 Января, 89",
+    "id": "70000001106126621",
+    "name": "Большое дело, юридическая консультация",
+    "point": {
+      "lat": 51.669261,
+      "lon": 39.164421
+    },
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "8 офис; 1 этаж",
+    "address_name": "Ленинский проспект, 25/1",
+    "id": "70000001026856117",
+    "name": "Юридический кабинет",
+    "point": {
+      "lat": 51.643791,
+      "lon": 39.236992
+    },
+    "reviews": {
+      "general_rating": 4.6,
+      "general_review_count": 6,
+      "general_review_count_with_stars": 8,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.8,
+      "org_review_count": 7,
+      "org_review_count_with_stars": 9
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "327 офис; 3 этаж",
+    "address_name": "улица Фридриха Энгельса, 25Б",
+    "id": "70000001056016033",
+    "name": "Экспресс банкрот",
+    "point": {
+      "lat": 51.669441,
+      "lon": 39.205134
+    },
+    "reviews": {
+      "general_rating": 4.9,
+      "general_review_count": 168,
+      "general_review_count_with_stars": 170,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 5,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.9,
+      "org_review_count": 168,
+      "org_review_count_with_stars": 170,
+      "rating": 5,
+      "review_count": 5
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "2 этаж",
+    "address_name": "набережная Массалитинова, 32",
+    "id": "70000001046617383",
+    "name": "Сотниковы и партнеры, адвокатская контора",
+    "point": {
+      "lat": 51.6754,
+      "lon": 39.225267
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 1,
+      "general_review_count_with_stars": 1,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 1,
+      "org_review_count_with_stars": 1
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "Красноармейская улица, 64",
+    "id": "70000001018368198",
+    "name": "Финансовый технолог, юридическая компания",
+    "point": {
+      "lat": 51.661074,
+      "lon": 39.182577
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 5,
+      "general_review_count_with_stars": 5,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 5,
+      "org_review_count_with_stars": 5
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "14 офис; 1 этаж",
+    "address_name": "Спортивная набережная, 4",
+    "id": "70000001080097128",
+    "name": "Губанов и партнеры, коллегия адвокатов",
+    "point": {
+      "lat": 51.666515,
+      "lon": 39.245565
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 9,
+      "general_review_count_with_stars": 9,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 9,
+      "org_review_count_with_stars": 9
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "507 офис; 5 этаж",
+    "address_name": "Никитинская улица, 42",
+    "id": "70000001027262376",
+    "name": "Решение, юридическая компания",
+    "point": {
+      "lat": 51.665025,
+      "lon": 39.191987
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 4,
+      "general_review_count_with_stars": 4,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 4,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 4,
+      "org_review_count_with_stars": 4,
+      "rating": 5,
+      "review_count": 4
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица Фридриха Энгельса, 33д",
+    "id": "70000001035351078",
+    "name": "Юридическая компания Ника",
+    "point": {
+      "lat": 51.667117,
+      "lon": 39.204051
+    },
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "408 офис; 4 этаж",
+    "address_name": "Ленинский проспект, 174и",
+    "id": "70000001101129698",
+    "name": "Олимп, юридическая компания",
+    "point": {
+      "lat": 51.700456,
+      "lon": 39.274331
+    },
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "212 офис; 2 этаж",
+    "address_name": "улица Бакунина, 45а",
+    "id": "70000001053812605",
+    "name": "Лига банкротства, юридическая компания",
+    "point": {
+      "lat": 51.671117,
+      "lon": 39.185955
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 2,
+      "general_review_count_with_stars": 2,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 2,
+      "org_review_count_with_stars": 2
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "407 офис; 4 этаж",
+    "address_name": "Плехановская улица, 22а",
+    "id": "70000001038240666",
+    "name": "Адвокат Боброва Надежда Владимировна",
+    "point": {
+      "lat": 51.668023,
+      "lon": 39.193473
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 1,
+      "general_review_count_with_stars": 1,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 1,
+      "org_review_count_with_stars": 1
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "231 офис; 2 этаж",
+    "address_name": "улица Фридриха Энгельса, 25Б",
+    "id": "70000001077491366",
+    "name": "Видар, юридическая компания",
+    "point": {
+      "lat": 51.669441,
+      "lon": 39.205134
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 45,
+      "general_review_count_with_stars": 48,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 45,
+      "org_review_count_with_stars": 48
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "8 офис; 1 этаж",
+    "address_name": "улица Космонавтов, 8",
+    "id": "70000001026982346",
+    "name": "Юридический кабинет",
+    "point": {
+      "lat": 51.660451,
+      "lon": 39.153082
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 1,
+      "general_review_count_with_stars": 1,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.8,
+      "org_review_count": 7,
+      "org_review_count_with_stars": 9
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "13 офис; 2 этаж",
+    "address_name": "Кольцовская улица, 62",
+    "id": "70000001054658200",
+    "name": "Кредитный юрист А. В. Попов",
+    "point": {
+      "lat": 51.664162,
+      "lon": 39.188376
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 9,
+      "general_review_count_with_stars": 9,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 9,
+      "org_review_count_with_stars": 9
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "401 офис; 4 этаж",
+    "address_name": "улица Фридриха Энгельса, 25Б",
+    "id": "70000001055341503",
+    "name": "Единый многофункциональный юридический центр",
+    "point": {
+      "lat": 51.669441,
+      "lon": 39.205134
+    },
+    "reviews": {
+      "general_rating": 4.6,
+      "general_review_count": 38,
+      "general_review_count_with_stars": 40,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.6,
+      "org_review_count": 38,
+      "org_review_count_with_stars": 40
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "218 офис; 2 этаж",
+    "address_name": "Донбасская улица, 2",
+    "id": "4363391420643278",
+    "name": "Солидарность, юридический центр",
+    "point": {
+      "lat": 51.67399,
+      "lon": 39.183495
+    },
+    "reviews": {
+      "general_rating": 4.8,
+      "general_review_count": 17,
+      "general_review_count_with_stars": 18,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 5,
+          "review_count": 1,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 4.8,
+      "org_review_count": 17,
+      "org_review_count_with_stars": 18,
+      "rating": 5,
+      "review_count": 1
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "2 этаж",
+    "address_name": "улица Куцыгина, 17",
+    "id": "4363390420293068",
+    "name": "ПравоЗащита, юридическая компания",
+    "point": {
+      "lat": 51.658103,
+      "lon": 39.193707
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 6,
+      "general_review_count_with_stars": 6,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 6,
+      "org_review_count_with_stars": 6
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1001 офис; 10 этаж",
+    "address_name": "улица Фридриха Энгельса, 58а",
+    "id": "70000001100289079",
+    "name": "Арбитр плюс, компания",
+    "point": {
+      "lat": 51.664178,
+      "lon": 39.195383
+    },
+    "reviews": {
+      "general_rating": 5,
+      "general_review_count": 4,
+      "general_review_count_with_stars": 4,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 5,
+      "org_review_count": 4,
+      "org_review_count_with_stars": 4
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1 этаж",
+    "address_name": "улица Кропоткина, 10",
+    "id": "70000001037434043",
+    "name": "Июль, юридическая компания",
+    "point": {
+      "lat": 51.673225,
+      "lon": 39.183224
+    },
+    "reviews": {
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "432/2 офис; 4 этаж",
+    "address_name": "Плехановская улица, 66Б",
+    "id": "70000001065375746",
+    "name": "Гарант права, юридическая компания",
+    "point": {
+      "lat": 51.676139,
+      "lon": 39.185721
+    },
+    "reviews": {
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "tag": "flamp"
+        }
+      ]
+    },
+    "type": "branch"
+  },
+  {
+    "address_comment": "1201А офис; 12 этаж",
+    "address_name": "Плехановская улица, 53",
+    "id": "70000001032640407",
+    "name": "Юридический центр",
+    "point": {
+      "lat": 51.674042,
+      "lon": 39.184998
+    },
+    "reviews": {
+      "general_rating": 3,
+      "general_review_count": 8,
+      "general_review_count_with_stars": 10,
+      "is_org_reviews": true,
+      "is_reviewable": true,
+      "is_reviewable_on_flamp": true,
+      "items": [
+        {
+          "is_reviewable": true,
+          "tag": "2gis_reviews"
+        },
+        {
+          "is_reviewable": true,
+          "rating": 1,
+          "review_count": 1,
+          "tag": "flamp"
+        }
+      ],
+      "org_rating": 3,
+      "org_review_count": 8,
+      "org_review_count_with_stars": 10,
+      "rating": 1,
+      "review_count": 1
+    },
+    "type": "branch"
+  }
+]
