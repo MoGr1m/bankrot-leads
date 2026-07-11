@@ -6,7 +6,15 @@ import { submitLead, type LeadFormState } from "@/lib/leads";
 
 const initialState: LeadFormState = { status: "idle" };
 
-export function Calculator({ citySlug }: { citySlug: string }) {
+export function Calculator({
+  citySlug,
+  companyName,
+}: {
+  citySlug: string;
+  // Указывается только на странице профиля юрфирмы — тогда заявка
+  // адресная, а не общая по городу
+  companyName?: string;
+}) {
   const [state, formAction, pending] = useActionState(submitLead, initialState);
 
   if (state.status === "success") {
@@ -23,10 +31,15 @@ export function Calculator({ citySlug }: { citySlug: string }) {
       className="rounded-xl border border-slate-200 bg-slate-50 p-6 space-y-4"
     >
       <input type="hidden" name="city" value={citySlug} />
+      {companyName && (
+        <input type="hidden" name="companyName" value={companyName} />
+      )}
 
       <div>
         <p className="font-semibold mb-3">
-          Бесплатно узнайте, подходите ли вы под процедуру банкротства
+          {companyName
+            ? `Оставить заявку в «${companyName}»`
+            : "Бесплатно узнайте, подходите ли вы под процедуру банкротства"}
         </p>
       </div>
 

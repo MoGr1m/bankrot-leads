@@ -57,6 +57,9 @@ export async function submitLead(
   const debtAmount = String(formData.get("debtAmount") ?? "");
   const hasIncome = formData.get("hasIncome") === "yes";
   const consent = formData.get("consent") === "on";
+  // Заполняется только на странице профиля конкретной юрфирмы —
+  // на общей странице города поле отсутствует
+  const companyName = formData.get("companyName");
 
   if (!consent) {
     return {
@@ -72,6 +75,9 @@ export async function submitLead(
   const text = [
     "Новая заявка с сайта",
     `Город: ${city}`,
+    ...(typeof companyName === "string" && companyName
+      ? [`Юрфирма: ${companyName}`]
+      : []),
     `Телефон: ${phone}`,
     `Сумма долга: ${DEBT_LABELS[debtAmount] ?? debtAmount}`,
     `Есть доход: ${hasIncome ? "да" : "нет"}`,

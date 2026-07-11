@@ -37,7 +37,9 @@ export default function RootLayout({
               Списание долгов
             </Link>
             <nav className="flex gap-4 text-sm text-slate-600">
+              <Link href="/how-it-works">Как это работает</Link>
               <Link href="/articles">Статьи</Link>
+              <Link href="/about">О нас</Link>
               <Link href="/privacy">Политика ПД</Link>
             </nav>
           </div>
