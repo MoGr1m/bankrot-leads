@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
+import { ArrowLeft } from "lucide-react";
 import { ARTICLES, getArticleBySlug } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -18,11 +20,19 @@ export default async function ArticlePage({
   }
 
   return (
-    <div className="mx-auto max-w-3xl px-4 py-12 space-y-4">
-      <h1 className="text-2xl font-bold mb-2">{article.title}</h1>
+    <div className="mx-auto max-w-3xl px-4 py-14 space-y-4">
+      <Link
+        href="/articles"
+        className="inline-flex items-center gap-1.5 text-sm text-blue-700 hover:underline mb-4"
+      >
+        <ArrowLeft size={16} />
+        Все статьи
+      </Link>
+
+      <h1 className="text-3xl font-bold mb-2">{article.title}</h1>
       {article.paragraphs.map((paragraph, index) =>
         paragraph.startsWith("## ") ? (
-          <h2 key={index} className="text-lg font-semibold pt-2">
+          <h2 key={index} className="text-lg font-semibold pt-2 text-blue-900">
             {paragraph.replace("## ", "")}
           </h2>
         ) : (
