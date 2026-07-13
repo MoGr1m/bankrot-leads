@@ -22,7 +22,8 @@
       "org_review_count": 2,
       "org_review_count_with_stars": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "2111590608370294",
@@ -41,7 +42,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001023987267",
@@ -60,7 +62,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001028042965",
@@ -85,7 +88,8 @@
       "org_review_count": 1,
       "org_review_count_with_stars": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001053701731",
@@ -110,7 +114,13 @@
       "org_review_count": 6,
       "org_review_count_with_stars": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЮРИДИЧЕСКИЙ ЦЕНТР НАБИЕВОЙ\"",
+    "inn": "7447316455",
+    "ogrn": "1247400006798",
+    "registration_date": "2024-03-06",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "id": "70000001061426621",
@@ -140,7 +150,8 @@
       "rating": 5,
       "review_count": 32
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001083024085",
@@ -159,7 +170,13 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"НАУЧНО-ИССЛЕДОВАТЕЛЬСКИЙ ЦЕНТР МНОГОПРОФИЛЬНЫХ СУДЕБНЫХ ЭКСПЕРТИЗ\"",
+    "inn": "7450078271",
+    "ogrn": "1127450000039",
+    "registration_date": "2012-01-12",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "id": "70000001096093701",
@@ -178,7 +195,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001111465323",
@@ -197,7 +215,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001113066233",
@@ -217,7 +236,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001113423920",
@@ -236,7 +256,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "215 офис; 2 этаж",
@@ -271,7 +292,13 @@
       "rating": 4.8,
       "review_count": 57
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "id": "70000001082369474",
@@ -290,7 +317,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001093845374",
@@ -309,7 +337,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1203 офис; 12 этаж",
@@ -347,7 +376,8 @@
       "recommendation_count": 1,
       "review_count": 88
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "101 офис; 1 этаж",
@@ -378,7 +408,13 @@
       "org_review_count": 152,
       "org_review_count_with_stars": 176
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЦЕНТР ЗАЩИТЫ ПРАВ ЧЕЛОВЕКА \"РАВНОПРАВИЕ\"",
+    "inn": "7453355389",
+    "ogrn": "1237400033991",
+    "registration_date": "2023-08-23",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -413,7 +449,8 @@
       "rating": 5,
       "review_count": 11
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2000 кабинет; 2 этаж",
@@ -449,7 +486,13 @@
       "rating": 4.9,
       "review_count": 376
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ПРАВЭКС\"",
+    "inn": "7449097128",
+    "ogrn": "1107449003188",
+    "registration_date": "2010-05-24",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "211 офис; 2 этаж",
@@ -480,7 +523,8 @@
       "org_review_count": 12,
       "org_review_count_with_stars": 23
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "3 этаж",
@@ -516,7 +560,13 @@
       "rating": 5,
       "review_count": 216
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ДОЛЖНИК ПРАВ ОНЛАЙН\"",
+    "inn": "7453345038",
+    "ogrn": "1227400004908",
+    "registration_date": "2022-02-09",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_name": "улица Энгельса, 45",
@@ -550,7 +600,8 @@
       "rating": 4.9,
       "review_count": 81
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "20 помещение; 2 этаж",
@@ -581,7 +632,8 @@
       "org_review_count": 455,
       "org_review_count_with_stars": 487
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "проспект Ленина, 29а",
@@ -615,7 +667,8 @@
       "rating": 5,
       "review_count": 219
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -650,7 +703,8 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица Доватора, 42",
@@ -680,7 +734,13 @@
       "org_review_count": 1279,
       "org_review_count_with_stars": 1401
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_name": "улица Чичерина, 33",
@@ -714,7 +774,8 @@
       "rating": 5,
       "review_count": 39
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "605 офис; 6 этаж",
@@ -746,7 +807,8 @@
       "org_review_count": 325,
       "org_review_count_with_stars": 340
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж; напротив правительства Челябинской области",
@@ -778,7 +840,8 @@
       "org_review_count": 96,
       "org_review_count_with_stars": 112
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица Скульптора Головницкого, 16",
@@ -808,7 +871,13 @@
       "org_review_count": 1279,
       "org_review_count_with_stars": 1401
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "9 офис; 33 помещение",
@@ -839,7 +908,8 @@
       "org_review_count": 315,
       "org_review_count_with_stars": 327
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "250-летия Челябинска, 17",
@@ -869,7 +939,13 @@
       "org_review_count": 1279,
       "org_review_count_with_stars": 1401
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "305 офис; 3 этаж",
@@ -904,7 +980,13 @@
       "rating": 5,
       "review_count": 5
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЮРИДИЧЕСКАЯ КОМПАНИЯ КУРИЛИНА \"КВАДРАТ\"",
+    "inn": "7453343471",
+    "ogrn": "1217400036787",
+    "registration_date": "2021-10-18",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -939,7 +1021,13 @@
       "rating": 5,
       "review_count": 40
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СЛУЖБА ПОМОЩИ ДОЛЖНИКАМ\"",
+    "inn": "7453334004",
+    "ogrn": "1207400007836",
+    "registration_date": "2020-02-21",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -976,7 +1064,8 @@
       "recommendation_count": 2,
       "review_count": 24
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -1007,7 +1096,13 @@
       "org_review_count": 30,
       "org_review_count_with_stars": 34
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЦЕНТР БАНКРОТСТВА И ПРАВА\"",
+    "inn": "7453333730",
+    "ogrn": "1207400005230",
+    "registration_date": "2020-02-11",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "справа от Wildberries",
@@ -1042,7 +1137,13 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_name": "улица Молодогвардейцев, 62",
@@ -1072,7 +1173,13 @@
       "org_review_count": 1279,
       "org_review_count_with_stars": 1401
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -1109,7 +1216,13 @@
       "recommendation_count": 5,
       "review_count": 85
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЛЕГАТЕРРА\"",
+    "inn": "7451439403",
+    "ogrn": "1197456005955",
+    "registration_date": "2019-02-06",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "415 офис; 4 этаж",
@@ -1144,7 +1257,13 @@
       "rating": 5,
       "review_count": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"ЗА РЕЗУЛЬТАТ\"",
+    "inn": "7453356103",
+    "ogrn": "1237400040272",
+    "registration_date": "2023-10-16",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -1179,7 +1298,13 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ КОМПАНИЯ \"БИЗНЕС-ЮРИСТ\"",
+    "inn": "7453248500",
+    "ogrn": "1127453012081",
+    "registration_date": "2012-11-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "вход с ул. Сони Кривой",
@@ -1214,7 +1339,13 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"БЕЗДОЛГОВ\"",
+    "inn": "7453351391",
+    "ogrn": "1237400004808",
+    "registration_date": "2023-02-03",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "663 офис; 6 этаж",
@@ -1250,7 +1381,8 @@
       "rating": 5,
       "review_count": 11
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "608 офис; мансардный этаж",
@@ -1285,7 +1417,8 @@
       "rating": 4.9,
       "review_count": 68
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "проспект Ленина, 73",
@@ -1320,7 +1453,13 @@
       "rating": 4.9,
       "review_count": 121
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЮРЭКС ГРУПП\"",
+    "inn": "7451421195",
+    "ogrn": "1177456025779",
+    "registration_date": "2017-04-07",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "вход с ул. Энгельса",
@@ -1355,7 +1494,13 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"СОЮЗ КРЕДИТНОЙ ЗАЩИТЫ\"",
+    "inn": "7447292973",
+    "ogrn": "1207400000279",
+    "registration_date": "2020-01-13",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_name": "Краснопольский проспект, 5г",
@@ -1386,7 +1531,8 @@
       "org_review_count": 35,
       "org_review_count_with_stars": 43
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "21 офис; 2 этаж",
@@ -1417,7 +1563,8 @@
       "org_review_count": 106,
       "org_review_count_with_stars": 131
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "9 офис; цокольный этаж",
@@ -1448,7 +1595,8 @@
       "org_review_count": 131,
       "org_review_count_with_stars": 133
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "первое крыльцо",
@@ -1483,7 +1631,8 @@
       "rating": 5,
       "review_count": 14
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "610Б офис; 6 этаж",
@@ -1514,6 +1663,7 @@
       "org_review_count": 22,
       "org_review_count_with_stars": 23
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   }
 ]

@@ -22,7 +22,13 @@
       "org_review_count": 5,
       "org_review_count_with_stars": 5
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ПЕРМСКИЙ БАНКРОТНЫЙ ЦЕНТР\"",
+    "inn": "5948077966",
+    "ogrn": "1255900017713",
+    "registration_date": "2025-11-12",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "id": "70000001024639461",
@@ -47,7 +53,8 @@
       "org_review_count": 8,
       "org_review_count_with_stars": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001060682515",
@@ -77,7 +84,8 @@
       "rating": 5,
       "review_count": 35
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001111385058",
@@ -102,7 +110,8 @@
       "org_review_count": 1,
       "org_review_count_with_stars": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001111465585",
@@ -121,7 +130,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "2252328095188953",
@@ -140,7 +150,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -175,7 +186,8 @@
       "rating": 5,
       "review_count": 10
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -206,7 +218,8 @@
       "org_review_count": 140,
       "org_review_count_with_stars": 157
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "цокольный этаж",
@@ -238,7 +251,8 @@
       "org_review_count": 44,
       "org_review_count_with_stars": 52
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "613 кабинет; 6 этаж",
@@ -273,7 +287,13 @@
       "rating": 5,
       "review_count": 7
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"БАНКРОТОВЪ-ЗАПАД\"",
+    "inn": "5948079730",
+    "ogrn": "1265900007031",
+    "registration_date": "2026-05-29",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -308,7 +328,8 @@
       "rating": 5,
       "review_count": 40
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -343,7 +364,13 @@
       "rating": 5,
       "review_count": 98
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"БАНКРОТНОЕ АГЕНТСТВО ДМИТРИЯ ЗЫРЯНОВА\"",
+    "inn": "5903145831",
+    "ogrn": "1205900015826",
+    "registration_date": "2020-06-19",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -378,7 +405,8 @@
       "rating": 5,
       "review_count": 131
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж; 3 подъезд",
@@ -413,7 +441,8 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "303 офис; 3 этаж",
@@ -448,7 +477,8 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -484,7 +514,8 @@
       "rating": 4.8,
       "review_count": 56
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "38 офис; 2 этаж",
@@ -515,7 +546,13 @@
       "org_review_count": 179,
       "org_review_count_with_stars": 205
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АЛЬЯНС МНОГОПРОФИЛЬНАЯ КОМПАНИЯ\"",
+    "inn": "5903125296",
+    "ogrn": "1165958083147",
+    "registration_date": "2016-05-26",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "2 этаж",
@@ -550,7 +587,8 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 офис; 4 этаж",
@@ -585,7 +623,8 @@
       "rating": 5,
       "review_count": 26
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "204 офис; 2 этаж",
@@ -621,7 +660,8 @@
       "rating": 4.9,
       "review_count": 51
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -656,7 +696,8 @@
       "rating": 5,
       "review_count": 12
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "305 офис; 3 этаж",
@@ -671,7 +712,8 @@
       "is_reviewable": false,
       "is_reviewable_on_flamp": false
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -707,7 +749,8 @@
       "rating": 4.9,
       "review_count": 68
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "4 этаж; около эскалатора",
@@ -742,7 +785,8 @@
       "rating": 5,
       "review_count": 93
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица Луначарского, 62Б",
@@ -772,7 +816,8 @@
       "org_review_count": 6,
       "org_review_count_with_stars": 7
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "304 офис; 3 этаж",
@@ -804,7 +849,8 @@
       "org_review_count": 61,
       "org_review_count_with_stars": 67
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "517 офис; 5 этаж",
@@ -839,7 +885,8 @@
       "rating": 4.9,
       "review_count": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "801 офис; 8 этаж",
@@ -870,7 +917,8 @@
       "org_review_count": 19,
       "org_review_count_with_stars": 20
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "425 офис; 4 этаж",
@@ -901,7 +949,8 @@
       "org_review_count": 217,
       "org_review_count_with_stars": 232
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица Героев Хасана, 19",
@@ -931,7 +980,13 @@
       "org_review_count": 179,
       "org_review_count_with_stars": 205
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АЛЬЯНС МНОГОПРОФИЛЬНАЯ КОМПАНИЯ\"",
+    "inn": "5903125296",
+    "ogrn": "1165958083147",
+    "registration_date": "2016-05-26",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -967,7 +1022,8 @@
       "rating": 5,
       "review_count": 4
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "301 офис; 3 этаж",
@@ -998,7 +1054,8 @@
       "org_review_count": 11,
       "org_review_count_with_stars": 11
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "400 офис; 4 этаж",
@@ -1033,7 +1090,13 @@
       "rating": 5,
       "review_count": 46
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ВЗЫСКАНИЙ.НЕТ\"",
+    "inn": "5902067860",
+    "ogrn": "1245900009190",
+    "registration_date": "2024-05-24",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -1064,7 +1127,8 @@
       "org_review_count": 31,
       "org_review_count_with_stars": 40
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -1095,7 +1159,8 @@
       "org_review_count": 5,
       "org_review_count_with_stars": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "205 офис; 2 этаж",
@@ -1126,7 +1191,13 @@
       "org_review_count": 31,
       "org_review_count_with_stars": 35
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЮРИДИЧЕСКОЕ БЮРО \"КАРУДО\"",
+    "inn": "5903155131",
+    "ogrn": "1225900022325",
+    "registration_date": "2022-11-29",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "цокольный этаж",
@@ -1161,7 +1232,8 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -1192,7 +1264,8 @@
       "org_review_count": 140,
       "org_review_count_with_stars": 157
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "131а офис; 1 этаж; правое крыло",
@@ -1227,7 +1300,8 @@
       "rating": 5,
       "review_count": 8
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -1259,7 +1333,8 @@
       "org_review_count": 40,
       "org_review_count_with_stars": 43
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "509 офис; 5 этаж",
@@ -1290,7 +1365,8 @@
       "org_review_count": 49,
       "org_review_count_with_stars": 49
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "17 офис; 2 этаж",
@@ -1321,7 +1397,13 @@
       "org_review_count": 12,
       "org_review_count_with_stars": 14
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "РЕГИОНАЛЬНАЯ ОБЩЕСТВЕННАЯ ОРГАНИЗАЦИЯ \"АССОЦИАЦИЯ ЮРИСТОВ ПЕРМСКОГО КРАЯ\"",
+    "inn": "5907051775",
+    "ogrn": "1225900004110",
+    "registration_date": "2022-03-03",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж; техносервис Собак@.ru",
@@ -1352,7 +1434,8 @@
       "org_review_count": 22,
       "org_review_count_with_stars": 24
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 офис; 2 этаж",
@@ -1377,7 +1460,13 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "КОЛЛЕГИЯ АДВОКАТОВ ПЕРМСКОГО КРАЯ \"МИЛЬКАМАНОВИЧ, СОЛОВЬЕВА И ПАРТНЕРЫ\"",
+    "inn": "5902989230",
+    "ogrn": "1115900001865",
+    "registration_date": "2011-06-20",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "809-811 офис; 8 этаж",
@@ -1409,7 +1498,8 @@
       "org_review_count": 62,
       "org_review_count_with_stars": 64
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "305 офис",
@@ -1440,7 +1530,8 @@
       "org_review_count": 26,
       "org_review_count_with_stars": 26
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "16 офис; 2 этаж",
@@ -1471,7 +1562,8 @@
       "org_review_count": 20,
       "org_review_count_with_stars": 20
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "4.27 офис; 4 этаж",
@@ -1502,7 +1594,8 @@
       "org_review_count": 33,
       "org_review_count_with_stars": 36
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "208 офис; 2 этаж",
@@ -1533,7 +1626,8 @@
       "org_review_count": 26,
       "org_review_count_with_stars": 28
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "25г офис; 2 этаж",
@@ -1564,6 +1658,12 @@
       "org_review_count": 3,
       "org_review_count_with_stars": 3
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АГЕНТСТВО ПРАВОВОГО ОБЕСПЕЧЕНИЯ\"",
+    "inn": "5905274800",
+    "ogrn": "1095905006900",
+    "registration_date": "2009-12-16",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   }
 ]

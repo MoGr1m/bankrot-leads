@@ -27,7 +27,8 @@
       "rating": 5,
       "review_count": 35
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001096092646",
@@ -46,7 +47,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001111465611",
@@ -65,7 +67,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "id": "70000001082361784",
@@ -84,7 +87,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -119,7 +123,8 @@
       "rating": 5,
       "review_count": 14
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -150,7 +155,8 @@
       "org_review_count": 37,
       "org_review_count_with_stars": 41
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -185,7 +191,13 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "АКЦИОНЕРНОЕ ОБЩЕСТВО \"ЗАРЯ\"",
+    "inn": "3625009235",
+    "ogrn": "1063667297869",
+    "registration_date": "2006-12-19",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -220,7 +232,8 @@
       "rating": 5,
       "review_count": 31
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "618 кабинет; 6 этаж",
@@ -257,7 +270,8 @@
       "recommendation_count": 3,
       "review_count": 56
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -292,7 +306,8 @@
       "rating": 4.9,
       "review_count": 80
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "проспект Труда, 59",
@@ -322,7 +337,8 @@
       "org_review_count": 6,
       "org_review_count_with_stars": 6
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "405, 408 офис; 4 этаж; правое крыло",
@@ -358,7 +374,13 @@
       "rating": 5,
       "review_count": 40
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"БАНКИРРО36\"",
+    "inn": "3662256521",
+    "ogrn": "1173668058574",
+    "registration_date": "2017-11-16",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -389,7 +411,8 @@
       "org_review_count": 24,
       "org_review_count_with_stars": 25
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -424,7 +447,13 @@
       "rating": 5,
       "review_count": 3
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "КОЛЛЕГИЯ АДВОКАТОВ \"ЮСТИНА\" ВОРОНЕЖСКОЙ ОБЛАСТИ",
+    "inn": "3665813153",
+    "ogrn": "1213600000151",
+    "registration_date": "2021-01-14",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "701 офис; 7 этаж",
@@ -455,7 +484,8 @@
       "org_review_count": 100,
       "org_review_count_with_stars": 104
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "01 офис; 19 этаж",
@@ -491,7 +521,8 @@
       "rating": 5,
       "review_count": 25
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "7/1 офис; 2 этаж",
@@ -526,7 +557,8 @@
       "rating": 5,
       "review_count": 5
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "502 офис; 5 этаж",
@@ -557,7 +589,8 @@
       "org_review_count": 14,
       "org_review_count_with_stars": 15
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "302/1 офис; 1 помещение; 3 этаж",
@@ -588,7 +621,8 @@
       "org_review_count": 9,
       "org_review_count_with_stars": 10
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -623,7 +657,8 @@
       "rating": 5,
       "review_count": 84
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "3311 офис; 3 этаж",
@@ -654,7 +689,13 @@
       "org_review_count": 37,
       "org_review_count_with_stars": 43
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЛИНИЯ ЗАЩИТЫ\"",
+    "inn": "3666253063",
+    "ogrn": "1203600037651",
+    "registration_date": "2020-11-25",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -685,7 +726,8 @@
       "org_review_count": 293,
       "org_review_count_with_stars": 306
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица 9 Января, 276",
@@ -715,7 +757,8 @@
       "org_review_count": 293,
       "org_review_count_with_stars": 306
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "Плехановская улица, 45",
@@ -745,7 +788,8 @@
       "org_review_count": 9,
       "org_review_count_with_stars": 9
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "3-4 этаж; 2 подъезд",
@@ -772,7 +816,13 @@
       ],
       "org_review_count_with_stars": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ ЮРИДИЧЕСКАЯ ФИРМА \"БОРОДИН И ПАРТНЕРЫ\"",
+    "inn": "3664116752",
+    "ogrn": "1123668004558",
+    "registration_date": "2012-01-30",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "807 офис; 8 этаж",
@@ -807,7 +857,8 @@
       "rating": 5,
       "review_count": 3
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "201 офис; 2 этаж",
@@ -842,7 +893,8 @@
       "rating": 5,
       "review_count": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "проспект Труда, 61",
@@ -872,7 +924,8 @@
       "org_review_count": 8,
       "org_review_count_with_stars": 11
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_name": "улица Генерала Лизюкова, 85",
@@ -896,7 +949,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -921,7 +975,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "8 офис; 1 этаж",
@@ -952,7 +1007,8 @@
       "org_review_count": 7,
       "org_review_count_with_stars": 9
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "327 офис; 3 этаж",
@@ -987,7 +1043,8 @@
       "rating": 5,
       "review_count": 5
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -1018,7 +1075,13 @@
       "org_review_count": 1,
       "org_review_count_with_stars": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "\"АДВОКАТСКАЯ КОНТОРА \"СОТНИКОВЫ И ПАРТНЕРЫ\"",
+    "inn": "3664016814",
+    "ogrn": "1023601579528",
+    "registration_date": "2020-10-02",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -1049,7 +1112,8 @@
       "org_review_count": 5,
       "org_review_count_with_stars": 5
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "14 офис; 1 этаж",
@@ -1080,7 +1144,13 @@
       "org_review_count": 9,
       "org_review_count_with_stars": 9
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "АДВОКАТСКАЯ КОНТОРА \"ГУБАНОВ И ПАРТНЕРЫ\"",
+    "inn": "3664016814",
+    "ogrn": "1023601579528",
+    "registration_date": "2023-10-31",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "507 офис; 5 этаж",
@@ -1116,7 +1186,8 @@
       "rating": 5,
       "review_count": 4
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1 этаж",
@@ -1141,7 +1212,13 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ЮРИДИЧЕСКАЯ КОМПАНИЯ НИКА\"",
+    "inn": "3664231610",
+    "ogrn": "1173668055153",
+    "registration_date": "2017-10-26",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "408 офис; 4 этаж",
@@ -1166,7 +1243,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "212 офис; 2 этаж",
@@ -1197,7 +1275,8 @@
       "org_review_count": 2,
       "org_review_count_with_stars": 2
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "407 офис; 4 этаж",
@@ -1228,7 +1307,8 @@
       "org_review_count": 1,
       "org_review_count_with_stars": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "231 офис; 2 этаж",
@@ -1259,7 +1339,8 @@
       "org_review_count": 45,
       "org_review_count_with_stars": 48
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "8 офис; 1 этаж",
@@ -1290,7 +1371,8 @@
       "org_review_count": 7,
       "org_review_count_with_stars": 9
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "13 офис; 2 этаж",
@@ -1321,7 +1403,8 @@
       "org_review_count": 9,
       "org_review_count_with_stars": 9
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "401 офис; 4 этаж",
@@ -1352,7 +1435,8 @@
       "org_review_count": 38,
       "org_review_count_with_stars": 40
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "218 офис; 2 этаж",
@@ -1387,7 +1471,8 @@
       "rating": 5,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "2 этаж",
@@ -1418,7 +1503,8 @@
       "org_review_count": 6,
       "org_review_count_with_stars": 6
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1001 офис; 10 этаж",
@@ -1450,7 +1536,13 @@
       "org_review_count": 4,
       "org_review_count_with_stars": 4
     },
-    "type": "branch"
+    "type": "branch",
+    "legal_name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"АРБИТР ПЛЮС\"",
+    "inn": "3662298137",
+    "ogrn": "1213600033624",
+    "registration_date": "2021-12-22",
+    "org_status": "ACTIVE",
+    "dadata_matched": true
   },
   {
     "address_comment": "1 этаж",
@@ -1476,7 +1568,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "432/2 офис; 4 этаж",
@@ -1501,7 +1594,8 @@
         }
       ]
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   },
   {
     "address_comment": "1201А офис; 12 этаж",
@@ -1537,6 +1631,7 @@
       "rating": 1,
       "review_count": 1
     },
-    "type": "branch"
+    "type": "branch",
+    "dadata_matched": false
   }
 ]
