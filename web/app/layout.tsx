@@ -43,9 +43,15 @@ export default function RootLayout({
               </span>
               Списание долгов
             </Link>
-            <nav className="flex gap-3 sm:gap-6 text-xs sm:text-sm text-slate-600">
-              <Link href="/how-it-works" className="hover:text-blue-700">
-                Как это работает
+            <nav className="flex gap-3 sm:gap-5 text-xs sm:text-sm text-slate-600">
+              <Link href="/podbor-kompanii" className="hover:text-blue-700">
+                Подбор
+              </Link>
+              <Link href="/services" className="hover:text-blue-700">
+                Услуги
+              </Link>
+              <Link href="/situations" className="hover:text-blue-700">
+                Ситуации
               </Link>
               <Link href="/articles" className="hover:text-blue-700">
                 Статьи
@@ -75,28 +81,59 @@ export default function RootLayout({
               <p className="font-medium text-slate-900 mb-2">Сайт</p>
               <ul className="space-y-1 text-slate-500">
                 <li>
-                  <Link href="/how-it-works" className="hover:text-blue-700">
-                    Как это работает
+                  <Link href="/podbor-kompanii" className="hover:text-blue-700">
+                    Подбор компании
                   </Link>
                 </li>
                 <li>
-                  <Link href="/articles" className="hover:text-blue-700">
-                    Статьи
+                  <Link href="/services" className="hover:text-blue-700">
+                    Услуги
                   </Link>
                 </li>
                 <li>
-                  <Link href="/about" className="hover:text-blue-700">
-                    О нас
+                  <Link href="/situations" className="hover:text-blue-700">
+                    Ситуации
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/for-companies" className="hover:text-blue-700">
+                    Для компаний
                   </Link>
                 </li>
               </ul>
             </div>
             <div>
-              <p className="font-medium text-slate-900 mb-2">Документы</p>
+              <p className="font-medium text-slate-900 mb-2">Прозрачность</p>
               <ul className="space-y-1 text-slate-500">
                 <li>
+                  <Link href="/methodology" className="hover:text-blue-700">
+                    Методология
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/verification-policy"
+                    className="hover:text-blue-700"
+                  >
+                    Как проверяем компании
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/review-policy" className="hover:text-blue-700">
+                    Отзывы и рейтинги
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/advertising-disclosure"
+                    className="hover:text-blue-700"
+                  >
+                    Раскрытие о рекламе
+                  </Link>
+                </li>
+                <li>
                   <Link href="/privacy" className="hover:text-blue-700">
-                    Политика обработки персональных данных
+                    Политика обработки ПД
                   </Link>
                 </li>
               </ul>

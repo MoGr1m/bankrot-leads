@@ -62,16 +62,24 @@ export default function HomePage() {
               Списание долгов через банкротство физлиц
             </h1>
             <p className="text-blue-50 text-lg mb-8">
-              Бесплатно узнайте, подходите ли вы под процедуру, и найдите
-              проверенного юриста в своём городе.
+              Ответьте на 7 вопросов — покажем возможные варианты процедуры и
+              компании в вашем городе с проверенными сведениями. Бесплатно.
             </p>
-            <a
-              href="#cities"
-              className="inline-flex items-center gap-1.5 rounded-lg bg-white px-6 py-3 font-medium text-blue-700 shadow-lg transition hover:bg-blue-50"
-            >
-              Выбрать город и начать проверку
-              <ChevronRight size={18} />
-            </a>
+            <div className="flex flex-wrap gap-3">
+              <Link
+                href="/podbor-kompanii/quiz/"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-white px-6 py-3 font-medium text-blue-700 shadow-lg transition hover:bg-blue-50"
+              >
+                Пройти подбор
+                <ChevronRight size={18} />
+              </Link>
+              <a
+                href="#cities"
+                className="inline-flex items-center gap-1.5 rounded-lg bg-white/10 px-6 py-3 font-medium text-white transition hover:bg-white/20"
+              >
+                Выбрать город
+              </a>
+            </div>
           </div>
         </div>
       </div>
