@@ -12,7 +12,63 @@ export type Organization = {
   address: string | null;
   rating: number | null;
   reviewCount: number;
+  // Реквизиты из ЕГРЮЛ (через DaData). Заполнены не у всех — сопоставление
+  // вывески 2ГИС с юрлицом удаётся примерно у 40% компаний. Где нет — null.
+  legalName: string | null;
+  inn: string | null;
+  ogrn: string | null;
+  registrationDate: string | null; // ISO-дата регистрации юрлица
+  orgStatus: string | null; // ACTIVE и т.п.
+  // Реквизиты сопоставлены автоматически (по названию + сверка города),
+  // не подтверждены вручную. Влияет на честный «уровень проверки» в UI.
+  requisitesAutoMatched: boolean;
+  // Поля под будущее наполнение (цены/услуги пока не собираются) — заведены
+  // заранее, чтобы модель и UI не переписывать при появлении данных.
+  priceFrom: number | null;
+  priceTo: number | null;
+  services: string[];
 };
+
+// Уровень проверки компании — честно отражает, что мы реально знаем.
+// Не завышаем: автоматически найденные реквизиты ≠ ручная проверка.
+export type VerificationInfo = {
+  level: number; // 0 — не проверено, 1 — реквизиты найдены автоматически
+  label: string;
+  note: string;
+};
+
+export function getVerification(org: Organization): VerificationInfo {
+  if (org.inn) {
+    return {
+      level: 1,
+      label: "Реквизиты найдены",
+      note: "ИНН и ОГРН сопоставлены с ЕГРЮЛ автоматически по названию. Не подтверждены вручную — проверьте перед заключением договора.",
+    };
+  }
+  return {
+    level: 0,
+    label: "Не проверено",
+    note: "Данные только из открытого справочника 2ГИС. Реквизиты юрлица не установлены.",
+  };
+}
+
+// Показатель уверенности в данных о компании (раздел 11.4 ТЗ) — не даёт
+// малому числу отзывов выглядеть весомее большого. Свежести отзывов у нас
+// нет, поэтому опираемся на их количество как доступный прокси.
+export type ConfidenceLevel = {
+  level: "high" | "medium" | "low";
+  label: string;
+};
+
+export function getConfidence(org: Organization): ConfidenceLevel {
+  if (org.rating !== null && org.reviewCount >= 30) {
+    return { level: "high", label: "Высокая уверенность" };
+  }
+  if (org.reviewCount >= 5) {
+    return { level: "medium", label: "Средняя уверенность" };
+  }
+  return { level: "low", label: "Мало данных" };
+}
 
 // Таблица транслитерации кириллицы в латиницу для человекочитаемых URL
 // (/{city}/{slug}/ вместо /{city}/{id}/ — так и SEO лучше, и ссылка понятнее)
@@ -69,6 +125,8 @@ export type City = {
 
 // Список пилотных городов — совпадает с PILOT_CITIES в parse_2gis.py
 export const CITIES: City[] = [
+  { slug: "moskva", title: "Москва", dataFileName: "Москва" },
+  { slug: "sankt-peterburg", title: "Санкт-Петербург", dataFileName: "Санкт-Петербург" },
   { slug: "chelyabinsk", title: "Челябинск", dataFileName: "Челябинск" },
   { slug: "perm", title: "Пермь", dataFileName: "Пермь" },
   { slug: "voronezh", title: "Воронеж", dataFileName: "Воронеж" },
@@ -86,7 +144,19 @@ type RawOrganization = {
     general_rating?: unknown;
     general_review_count?: unknown;
   };
+  // Поля из DaData-обогащения (src/parsers/enrich_dadata.py)
+  legal_name?: unknown;
+  inn?: unknown;
+  ogrn?: unknown;
+  registration_date?: unknown;
+  org_status?: unknown;
+  dadata_matched?: unknown;
 };
+
+// Возвращает строку, если значение — непустая строка, иначе null.
+function asString(value: unknown): string | null {
+  return typeof value === "string" && value.length > 0 ? value : null;
+}
 
 export function getOrganizations(city: City): Organization[] {
   const filePath = path.join(DATA_DIR, `${city.dataFileName}.json`);
@@ -108,7 +178,7 @@ export function getOrganizations(city: City): Organization[] {
     id: item.id,
     slug: slugs.get(item.id)!,
     name: item.name,
-    address: typeof item.address_name === "string" ? item.address_name : null,
+    address: asString(item.address_name),
     rating:
       typeof item.reviews?.general_rating === "number"
         ? item.reviews.general_rating
@@ -117,6 +187,15 @@ export function getOrganizations(city: City): Organization[] {
       typeof item.reviews?.general_review_count === "number"
         ? item.reviews.general_review_count
         : 0,
+    legalName: asString(item.legal_name),
+    inn: asString(item.inn),
+    ogrn: asString(item.ogrn),
+    registrationDate: asString(item.registration_date),
+    orgStatus: asString(item.org_status),
+    requisitesAutoMatched: item.dadata_matched === true,
+    priceFrom: null,
+    priceTo: null,
+    services: [],
   }));
 }
 
