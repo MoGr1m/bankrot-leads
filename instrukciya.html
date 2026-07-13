@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Инструкция по сайту bankrot-leads</title>
+<style>
+  :root {
+    /* Нейтрали со слабым синим биасом — «выбраны», а не дефолтные серые */
+    --bg: #f6f8fb;
+    --surface: #ffffff;
+    --surface-2: #eef2f8;
+    --border: #dbe3ee;
+    --ink: #16202e;
+    --ink-soft: #43536a;
+    --ink-faint: #6b7a90;
+    /* Фирменный градиент сайта */
+    --brand: #1d4ed8;
+    --brand-deep: #1e40af;
+    --teal: #0d9488;
+    --warn-bg: #fff6e6;
+    --warn-border: #f0c766;
+    --warn-ink: #8a5a08;
+    --code-bg: #0f1b2d;
+    --code-ink: #d7e3f4;
+    --code-accent: #6fd3c2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0b1220;
+      --surface: #121c2e;
+      --surface-2: #182740;
+      --border: #223449;
+      --ink: #e7eef8;
+      --ink-soft: #a9b8cc;
+      --ink-faint: #7d8ea6;
+      --brand: #6ba0ff;
+      --brand-deep: #4d84f0;
+      --teal: #2dd4bf;
+      --warn-bg: #2b2110;
+      --warn-border: #6b5220;
+      --warn-ink: #e7c479;
+      --code-bg: #0a1320;
+      --code-ink: #d7e3f4;
+      --code-accent: #6fd3c2;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+
+  /* Шапка с фирменным градиентом */
+  header.hero {
+    background: linear-gradient(135deg, var(--brand-deep), var(--brand) 55%, var(--teal));
+    color: #fff;
+    border-radius: 16px;
+    padding: 28px 26px;
+    margin-bottom: 32px;
+  }
+  header.hero .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0.85;
+    margin: 0 0 8px;
+  }
+  header.hero h1 {
+    margin: 0 0 6px;
+    font-size: 26px;
+    line-height: 1.2;
+    text-wrap: balance;
+    font-weight: 700;
+  }
+  header.hero a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  header.hero p { margin: 0; opacity: 0.92; }
+
+  section { margin-bottom: 34px; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--brand);
+    margin: 0 0 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+    font-weight: 700;
+  }
+  h3 { font-size: 17px; margin: 0 0 4px; font-weight: 650; }
+  p { margin: 0 0 12px; color: var(--ink-soft); }
+  strong { color: var(--ink); font-weight: 650; }
+  code {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 0.88em;
+    background: var(--surface-2);
+    padding: 1px 5px;
+    border-radius: 4px;
+  }
+
+  /* Карточки разделов сайта */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-bottom: 12px;
+  }
+  .card .path {
+    display: inline-block;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 12.5px;
+    color: var(--teal);
+    background: var(--surface-2);
+    padding: 1px 7px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+  .card ul { margin: 8px 0 0; padding-left: 18px; color: var(--ink-soft); }
+  .card li { margin-bottom: 4px; }
+  .card p:last-child { margin-bottom: 0; }
+
+  /* Блок кода с командами */
+  pre {
+    background: var(--code-bg);
+    color: var(--code-ink);
+    border-radius: 10px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+  }
+  pre code { background: none; padding: 0; font-size: inherit; }
+  pre .c { color: var(--code-accent); } /* команда */
+  pre .cm { color: #7e93ac; }           /* комментарий */
+
+  /* Предупреждение */
+  .warn {
+    background: var(--warn-bg);
+    border: 1px solid var(--warn-border);
+    color: var(--warn-ink);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 14.5px;
+  }
+  .warn strong { color: var(--warn-ink); }
+
+  /* Заявки — две плашки */
+  .lead-grid { display: grid; gap: 10px; grid-template-columns: 1fr; }
+  @media (min-width: 560px) { .lead-grid { grid-template-columns: 1fr 1fr; } }
+  .lead {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--brand);
+    border-radius: 10px;
+    padding: 14px 16px;
+  }
+  .lead .tag {
+    font-family: ui-monospace, monospace;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .lead p { font-size: 14px; margin: 0; }
+
+  .footnote {
+    font-size: 13.5px;
+    color: var(--ink-faint);
+    border-top: 1px solid var(--border);
+    padding-top: 16px;
+  }
+  a { color: var(--brand); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <p class="eyebrow">Памятка владельца</p>
+    <h1>Сайт bankrot-leads — что есть и как пользоваться</h1>
+    <p><a href="https://bankrot-leads.vercel.app" target="_blank" rel="noopener">bankrot-leads.vercel.app</a></p>
+  </header>
+
+  <section>
+    <h2>Что есть на сайте</h2>
+
+    <div class="card">
+      <h3>Главная</h3>
+      <p>Что такое банкротство, как всё работает, выбор из <strong>5 городов</strong> (Москва, СПб, Челябинск, Пермь, Воронеж), FAQ. Две кнопки: «Пройти подбор» и «Выбрать город».</p>
+    </div>
+
+    <div class="card">
+      <h3>Подбор компании <span class="path">/podbor-kompanii</span></h3>
+      <p>Ядро сайта.</p>
+      <ul>
+        <li>Квиз из 7 вопросов: город, сумма и виды долгов, просрочка, доход, имущество, сделки.</li>
+        <li>По ответам показываются 3–5 компаний <strong>с объяснением, почему подходят</strong>.</li>
+        <li>Пользователь отмечает до 3 компаний, оставляет телефон → заявка.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Каталог города <span class="path">/chelyabinsk</span></h3>
+      <p>Список юрфирм с фильтрами (проверенные / с офисом) и сортировкой. У каждой — значок проверки и показатель уверенности вместо звёзд.</p>
+    </div>
+
+    <div class="card">
+      <h3>Карточка компании</h3>
+      <p>Реквизиты (ИНН/ОГРН, если найдены), таблица «что проверено» с источниками, дисклеймеры, своя форма заявки.</p>
+    </div>
+
+    <div class="card">
+      <h3>Услуги · Ситуации · Статьи</h3>
+      <p>SEO-страницы: судебное и внесудебное банкротство, коллекторы, приставы, ипотека, плюс калькулятор стоимости (показывает структуру затрат, без выдуманных сумм).</p>
+    </div>
+
+    <div class="card">
+      <h3>Прозрачность <span class="path">подвал</span></h3>
+      <p>Методология, как проверяем компании, политика отзывов, раскрытие о рекламе, политика обработки ПД.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Как пользоваться — заявки</h2>
+    <p>Заявки приходят в <strong>Telegram</strong>, двух типов:</p>
+    <div class="lead-grid">
+      <div class="lead">
+        <span class="tag">🆕 Заявка из подбора</span>
+        <p>Телефон + ситуация из квиза + выбранные компании.</p>
+      </div>
+      <div class="lead">
+        <span class="tag">Заявка с карточки</span>
+        <p>Телефон + название конкретной фирмы.</p>
+      </div>
+    </div>
+    <p style="margin-top:12px">В каждой заявке есть <strong>строка-заготовка статуса</strong> — отмечайте вручную (новый / перезвонил / передал фирме).</p>
+    <p>По бизнес-логике: сначала копятся реальные лиды с сайта, потом холодный аутрич к юрфирмам — <strong>не параллельно</strong>.</p>
+  </section>
+
+  <section>
+    <h2>Как обновлять данные</h2>
+    <p>Добавить или обновить компании в городе:</p>
+<pre><code><span class="cm"># перейти в проект</span>
+<span class="c">cd /Users/mogr1m/Projects/bankrot-leads</span>
+
+<span class="cm"># спарсить город из 2ГИС</span>
+<span class="c">python3 src/parsers/parse_2gis.py</span>
+
+<span class="cm"># добавить ИНН/ОГРН из ЕГРЮЛ</span>
+<span class="c">python3 src/parsers/enrich_dadata.py</span></code></pre>
+    <div class="warn">
+      ⚠️ <strong>Важно:</strong> после парсинга обязательно закоммитить и запушить <code>data/*.json</code> — иначе на проде останутся старые данные (сайт читает JSON при сборке).
+    </div>
+    <p style="margin-top:14px"><strong>Деплой — автоматический:</strong> любой <code>git push</code> в ветку <code>main</code> → Vercel сам пересобирает и публикует.</p>
+  </section>
+
+  <section>
+    <h2>Что сайт честно НЕ обещает</h2>
+    <p>Нет гарантий списания долгов, нет выдуманных цен и рейтингов. Где данных о компании нет — прямо написано «не проверено». Это сознательно: требование ТЗ и ФЗ «О рекламе».</p>
+  </section>
+
+  <p class="footnote">Памятка отражает состояние сайта на 13 июля 2026. Обновляйте её при изменении структуры или логики заявок.</p>
+</div>
+</body>
+</html>
