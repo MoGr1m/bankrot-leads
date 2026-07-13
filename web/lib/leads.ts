@@ -98,3 +98,64 @@ export async function submitLead(
     message: "Заявка принята, мы свяжемся с вами в ближайшее время",
   };
 }
+
+// Заявка из сервиса подбора: пользователь выбрал до 3 компаний и передаёт
+// им контакт. В отличие от submitLead, здесь несколько получателей и сводка
+// ситуации из квиза. Статус-заготовка в тексте — для ручной отметки оператором
+// (по решению: остаёмся на Telegram, без внешней CRM).
+export async function submitSelectionLead(
+  _prevState: LeadFormState,
+  formData: FormData
+): Promise<LeadFormState> {
+  const phone = String(formData.get("phone") ?? "").trim();
+  const consent = formData.get("consent") === "on";
+  const cityTitle = String(formData.get("cityTitle") ?? "");
+  const companies = String(formData.get("companies") ?? ""); // «А; Б; В»
+  const situation = String(formData.get("situation") ?? ""); // сводка квиза
+
+  if (!consent) {
+    return {
+      status: "error",
+      message: "Нужно согласие на передачу данных выбранным компаниям",
+    };
+  }
+
+  if (!companies) {
+    return {
+      status: "error",
+      message: "Выберите хотя бы одну компанию",
+    };
+  }
+
+  if (!isValidRussianPhone(phone)) {
+    return { status: "error", message: "Проверьте номер телефона" };
+  }
+
+  const text = [
+    "🆕 Заявка из подбора",
+    "Статус: новый — отметить вручную: контакт / консультация / договор / отказ",
+    "",
+    `Город: ${cityTitle}`,
+    `Телефон: ${phone}`,
+    `Выбранные компании: ${companies}`,
+    "",
+    "Ситуация клиента:",
+    situation,
+  ].join("\n");
+
+  try {
+    await sendTelegramNotification(text);
+  } catch (error) {
+    console.error("Не удалось отправить заявку из подбора в Telegram:", error);
+    return {
+      status: "error",
+      message: "Не получилось отправить заявку, попробуйте ещё раз",
+    };
+  }
+
+  return {
+    status: "success",
+    message:
+      "Заявка отправлена выбранным компаниям. Они свяжутся с вами в ближайшее время.",
+  };
+}

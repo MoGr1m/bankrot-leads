@@ -1,5 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
+import { type City, CITIES, getCityBySlug } from "@/lib/cities";
+
+// Реэкспорт для обратной совместимости — многие модули импортируют город
+// из organizations.ts. Сами данные городов живут в cities.ts (без fs).
+export { type City, CITIES, getCityBySlug };
 
 // Данные лежат в data/ в корне проекта (на уровень выше папки web/) —
 // туда их кладёт python-парсер src/parsers/parse_2gis.py
@@ -114,26 +119,6 @@ function makeUniqueSlugs<T extends { id: string; name: string }>(
   }
 
   return idToSlug;
-}
-
-export type City = {
-  slug: string;
-  title: string;
-  // Название файла в data/, как его сохранил парсер (кириллица, без .json)
-  dataFileName: string;
-};
-
-// Список пилотных городов — совпадает с PILOT_CITIES в parse_2gis.py
-export const CITIES: City[] = [
-  { slug: "moskva", title: "Москва", dataFileName: "Москва" },
-  { slug: "sankt-peterburg", title: "Санкт-Петербург", dataFileName: "Санкт-Петербург" },
-  { slug: "chelyabinsk", title: "Челябинск", dataFileName: "Челябинск" },
-  { slug: "perm", title: "Пермь", dataFileName: "Пермь" },
-  { slug: "voronezh", title: "Воронеж", dataFileName: "Воронеж" },
-];
-
-export function getCityBySlug(slug: string): City | undefined {
-  return CITIES.find((city) => city.slug === slug);
 }
 
 type RawOrganization = {
