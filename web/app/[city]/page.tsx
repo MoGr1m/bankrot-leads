@@ -3,14 +3,21 @@ import { notFound } from "next/navigation";
 import {
   Building2,
   ChevronRight,
+  Info,
   ListChecks,
   MapPin,
-  Star,
+  ShieldCheck,
   ThumbsDown,
   ThumbsUp,
 } from "lucide-react";
-import { CITIES, getCityBySlug, getOrganizations } from "@/lib/organizations";
-import { Calculator } from "@/components/Calculator";
+import {
+  CITIES,
+  getCityBySlug,
+  getConfidence,
+  getOrganizations,
+  getVerification,
+} from "@/lib/organizations";
+import { Catalog, type CatalogCompany } from "@/components/Catalog";
 import { ARTICLES } from "@/lib/articles";
 
 // Общие для всех городов блоки — этапы процедуры, плюсы/минусы, частые
@@ -72,9 +79,30 @@ export default async function CityPage({
 
   const organizations = getOrganizations(city);
 
+  // Готовим данные для клиентского каталога: считаем уровень проверки и
+  // уверенности на сервере, передаём готовые метки.
+  const catalogCompanies: CatalogCompany[] = organizations.map((org) => {
+    const v = getVerification(org);
+    const c = getConfidence(org);
+    return {
+      slug: org.slug,
+      name: org.name,
+      address: org.address,
+      rating: org.rating,
+      reviewCount: org.reviewCount,
+      inn: org.inn,
+      verificationLevel: v.level,
+      verificationLabel: v.label,
+      confidenceLevel: c.level,
+      confidenceLabel: c.label,
+    };
+  });
+
+  const verifiedCount = organizations.filter((o) => o.inn).length;
+
   return (
     <div>
-      {/* Хиро-секция в фирменных цветах — как на главной, для единого стиля */}
+      {/* Хиро-секция в фирменных цветах */}
       <div className="bg-gradient-to-br from-blue-700 via-blue-600 to-teal-500 text-white">
         <div className="mx-auto max-w-5xl px-4 py-14 sm:py-20">
           <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-medium mb-5">
@@ -82,68 +110,64 @@ export default async function CityPage({
             {city.title}
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold mb-4 leading-tight">
-            Банкротство физлиц в городе {city.title}
+            Компании по банкротству физлиц в городе {city.title}
           </h1>
           <p className="text-blue-50 text-lg max-w-2xl">
-            Проверьте бесплатно, подходите ли вы под процедуру списания
-            долгов, и получите звонок от юриста, который специализируется на
-            банкротстве физлиц в {city.title}.
+            {organizations.length} компаний, у {verifiedCount} из них
+            установлены реквизиты юрлица. Пройдите короткий подбор — покажем
+            подходящие варианты и поможем сравнить.
           </p>
         </div>
       </div>
 
       <div className="mx-auto max-w-3xl px-4 py-14 space-y-16">
-        {/* Карточка калькулятора визуально приподнята над хиро-секцией */}
+        {/* CTA подбора — приподнят над хиро, ведёт в конверсионное ядро */}
         <div className="-mt-24 sm:-mt-28">
-          <Calculator citySlug={city.slug} />
+          <div className="relative overflow-hidden rounded-2xl border border-blue-100 bg-white p-6 sm:p-8 shadow-xl shadow-blue-900/5">
+            <div className="absolute inset-x-0 top-0 h-1.5 bg-gradient-to-r from-blue-600 to-teal-500" />
+            <div className="flex items-start gap-3">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600">
+                <ShieldCheck size={20} />
+              </span>
+              <div>
+                <p className="font-semibold text-lg leading-snug mb-1">
+                  Не знаете, какая компания подойдёт?
+                </p>
+                <p className="text-sm text-slate-600 mb-4">
+                  Ответьте на 7 вопросов — подберём компании под вашу ситуацию.
+                  Бесплатно, телефон не потребуется до результата.
+                </p>
+                <Link
+                  href="/podbor-kompanii/quiz/"
+                  className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-to-r from-blue-600 to-teal-500 text-white px-5 py-2.5 font-medium shadow-lg shadow-blue-900/20 hover:brightness-105"
+                >
+                  Начать подбор
+                  <ChevronRight size={18} />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div>
-          <h2 className="text-2xl font-bold mb-6 flex items-center gap-2">
+          <h2 className="text-2xl font-bold mb-3 flex items-center gap-2">
             <Building2 size={22} className="text-blue-600" />
-            Юридические фирмы в {city.title} ({organizations.length})
+            Все компании в {city.title}
           </h2>
+          <div className="flex items-start gap-2 rounded-xl bg-slate-50 p-4 text-sm text-slate-500 mb-5">
+            <Info size={16} className="shrink-0 mt-0.5" />
+            <p>
+              Реквизиты (ИНН/ОГРН) сопоставлены с ЕГРЮЛ автоматически по
+              названию — не подтверждены вручную. Рейтинг — по данным 2ГИС.
+              Проверьте сведения перед заключением договора.
+            </p>
+          </div>
           {organizations.length === 0 ? (
             <p className="text-slate-500 text-sm">
               Список пока в процессе сбора.
             </p>
           ) : (
-            <ul className="space-y-3">
-              {organizations.map((org) => (
-                <li key={org.id}>
-                  <Link
-                    href={`/${city.slug}/${org.slug}`}
-                    className="group flex items-start gap-4 rounded-xl border border-slate-200 p-4 transition hover:border-blue-300 hover:shadow-md hover:shadow-blue-900/5"
-                  >
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white transition">
-                      <Building2 size={18} />
-                    </span>
-                    <span className="flex-1 min-w-0">
-                      <span className="block font-medium">{org.name}</span>
-                      {org.address && (
-                        <span className="block text-sm text-slate-500">
-                          {org.address}
-                        </span>
-                      )}
-                      {org.rating !== null && (
-                        <span className="mt-1 inline-flex items-center gap-1 text-sm text-slate-500">
-                          <Star
-                            size={14}
-                            className="fill-amber-400 text-amber-400"
-                          />
-                          {org.rating} ({org.reviewCount} отзывов) — по
-                          данным 2ГИС
-                        </span>
-                      )}
-                    </span>
-                    <ChevronRight
-                      size={18}
-                      className="mt-2 shrink-0 text-slate-300 group-hover:text-blue-500"
-                    />
-                  </Link>
-                </li>
-              ))}
-            </ul>
+            <Catalog companies={catalogCompanies} citySlug={city.slug} />
           )}
         </div>
 
